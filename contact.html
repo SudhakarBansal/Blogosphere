@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="icon" href="/images/logo.png" type="image/icon type">
+    <title>Blogosphere - Contact Us</title>
+</head>
+
+<body>
+    <nav class="navigation container d-flex font-baloo">
+        <div class="nav-left d-flex"><a href="/"><span>Blogosphere</span></a>
+            <ul class="d-flex font-roboto">
+                <li><a href="/">Home</a></li>
+                <li><a href="javascript:alert('Sorry! This page is Currently Not Available.')">About</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="nav-right d-flex">
+            <form action="/search.html">
+                <input type="search" class="form-input font-baloo" name="query" placeholder="Search Article">
+                <button class="btn font-baloo">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <hr>
+    </div>
+    <div class="container-2 contact-content">
+        <h1 class="font-roboto">Feel free to contact us...</h1>
+        <div class="contact-form font-baloo">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter Your Name here" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Enter Your Email here" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="Phone">Phone Number:</label>
+                    <input type="tel" placeholder="Phone Number" id="Phone" name="Phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" placeholder="Do You Have any message for Us." name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer m-auto d-flex font-roboto">
+        Copyright &copy www.Blogosphere.com
+    </div>
