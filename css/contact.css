@@ -35,7 +35,7 @@
 
   .form-group textarea {
     resize: vertical;
-    height: 80px;
+    height: 30vh;
   }
 
   .form-group button {
