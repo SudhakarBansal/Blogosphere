@@ -13,6 +13,7 @@
     max-width: 80vw;
     margin: auto;
 }
+
 .container-2 {
     max-width: 60vw;
     margin: auto;
@@ -23,7 +24,7 @@
 }
 
 .btn {
-    border: 2px solid grey;
+    border: 1px solid grey;
     border-left: none;
     background: #04509c;
     color: white;
